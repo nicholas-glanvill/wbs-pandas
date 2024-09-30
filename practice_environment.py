@@ -4,5 +4,8 @@ df = pd.read_csv('/Users/nicholasglanvill/Documents/GitHub/wbs-pandas/vehicles.c
 
 #df.info()
 
-df.shape()
+
+print(df.describe())
+
+print(df.head())
 
